@@ -20,6 +20,27 @@ body {
     padding: 0.1px;
     text-align: center;
     border-bottom: 2px solid rgb(230, 6, 6);
+    text-align: center;
+}
+
+#logo {
+    align-items: start;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#logo:hover {
+    opacity: 0.8;
+}
+
+#logo:active {
+    opacity: 0.6;
+}
+
+#logo-header {
+    display: flex;
+    align-items: start;
+   
 }
 
 #title {
@@ -27,6 +48,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
+    margin-left: 510px;
+    justify-content: center;
+    align-items: center;
+ /*    display: flex;
+    display: inline; */
 }
 
 #sub-title {
@@ -50,6 +77,10 @@ body {
 
 .star:hover {
     color: rgb(208, 208, 195);
+}
+
+.star:active {
+    color: rgb(255, 255, 255);
 }
 
 #rating {
@@ -92,7 +123,7 @@ body {
     background-color: rgb(122, 108, 108);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1280px) {
     #rating {
         font-size: 30px;
         padding-left: 100px;
@@ -101,6 +132,10 @@ body {
         padding-left: 100px ;
         padding-bottom: 100px;
         margin-top: 200px;
+    }
+    #logo {
+        width: 150px;
+        height: auto;
     }
     #title-box {
     font-size: 50px;
@@ -122,8 +157,10 @@ body {
     }
     #title {
         font-size: 50px;
+        margin-left: 50px;
     }
     #sub-title {
         font-size: 35px;
     }
 }
+
